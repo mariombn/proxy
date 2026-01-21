@@ -35,7 +35,7 @@ sleep 10
 echo "Obtendo certificados SSL para devtools.mariombn.com..."
 docker compose run --rm certbot certonly --webroot \
     --webroot-path=/var/www/certbot \
-    --email seu-email@exemplo.com \
+    --email mariombn@gmail.com \
     --agree-tos \
     --no-eff-email \
     -d devtools.mariombn.com
